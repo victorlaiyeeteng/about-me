@@ -44,6 +44,7 @@ export type HomePageContent = {
     icon: string;
     external?: boolean;
   }[];
+  sourceLinks: SocialLink[];
 };
 
 export type ResumeItem = {

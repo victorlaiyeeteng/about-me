@@ -9,9 +9,9 @@ import { Icon } from "astro-icon/components";
 
 <Layout seo={aboutPageContent.seo}>
   <section class="mt-10 max-w-2xl mx-auto px-6">
-    <h1 class="text-3xl mb-1">About</h1>
-    <p class="opacity-60 mb-10 subtitle">{aboutPageContent.subtitle}</p>
-    <div class="mb-14">
+    <h1 class="text-3xl mb-1">Education</h1>
+    <!-- <p class="opacity-60 mb-10 subtitle">{aboutPageContent.subtitle}</p> -->
+    <!-- <div class="mb-14">
       <p class="mb-5 sm:text-left">
         Hello 👋, I'm a Software Engineer who adores <span class="gradient-link"
           >JavaScript</span
@@ -279,19 +279,25 @@ import { Icon } from "astro-icon/components";
           });
         }
       }
-    </script>
+    </script> -->
   </section>
 
   <section class="my-20 mt-32 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
-    <h2 class="mb-8 sm:mb-0 opacity-60">Work</h2>
     <div>
-      <div class="mb-6">
+      <!-- <div class="mb-6">
         My tech toolbox includes <strong>Node.js</strong>, <strong>Go</strong>, <strong
           >Kafka</strong
         >, <strong>GraphQL</strong>, <strong>REST</strong>, <strong>AWS</strong
         >, and much more – but my true love? APIs, of course!
+      </div> -->
+      <div class="grid grid-cols-1 gap-1 group">
+        {
+          aboutPageContent.connect.links.map((item) => (
+            <SocialLinkBox {...item} />
+          ))
+        }
       </div>
-      <div class="grid grid-cols-1 group">
+      <div class="grid grid-cols-1 sm:grid-cols-1 group">
         {aboutPageContent.work.items.map((item) => <ResumeItem {...item} />)}
       </div>
     </div>

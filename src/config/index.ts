@@ -11,80 +11,70 @@ import { socialLinks, homeSocialLinks } from "./social";
 import { sourceLinks } from "./source";
 
 export const identity: Identity = {
-  name: "Vinit Shahdeo",
-  logo: "/img/vinitshahdeo.png",
-  email: "vinishahdeo@gmail.com",
+  name: "Victor Lai",
+  logo: "/img/avatar.png",
+  email: "vlai69863@gmail.com",
 };
 
 export const openGraphImage: string = "/img/vinitshahdeo-og.jpg";
 
 export const navBarLinks: NavBarLink[] = [
+  // {
+  //   title: "home",
+  //   url: "/",
+  // },
   {
-    title: "Home",
-    url: "/",
-  },
-  {
-    title: "About",
+    title: "edu",
     url: "/about",
   },
   {
-    title: "Now",
+    title: "now",
     url: "/now",
   },
-  {
-    title: "Featured",
-    url: "/featured",
-  },
+  // {
+  //   title: "travel",
+  //   url: "/featured",
+  // },
 ];
 
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Vinit Shahdeo | Portfolio",
+    title: "Victor Lai | Portfolio",
     description:
-      "Explore the portfolio of Vinit Shahdeo, a Senior Software Engineer specializing in building scalable, secure, and performant backend microservices in Node.js and Go.",
+      "Explore the portfolio of Victor Lai, a Computer Science student specializing in building database systems and parallel computing.",
     image: openGraphImage,
-    domain: "vinitshahdeo.com",
-    url: "https://vinitshahdeo.com",
+    domain: "none.com",
+    url: "https://none.com",
   },
-  role: "Senior Backend Engineer",
+  role: "yee teng",
   description:
-    "Software Engineer specializing in building scalable, secure, and performant backend microservices in Node.js and Go. Honored to be recognized as a GitHub Star twice from India. With a knack for building event-driven architecture, I balance code with badminton and find peace in a sip of tea and poetry.",
+    "Aspiring Software Engineer specializing in building scalable and performant data services.",
   socialLinks: socialLinks,
   homeSocialLinks: homeSocialLinks,
   links: [
     {
-      title: "Peerlist",
-      url: "https://peerlist.io/vinitshahdeo",
-      icon: "mdi:link-circle",
-      external: true,
+      title: "Email", 
+      url: "mailto:vlai69863@gmail.com",
+      icon: "mdi:email",
+      external:true, 
     },
     {
-      title: "About",
-      url: "/about",
-      icon: "mdi:account-circle",
-    },
-    {
-      title: "Blog",
-      url: "https://vinitshahdeo.dev/",
-      icon: "mdi:share-circle",
-      external: true,
-    },
-    {
-      title: "Source",
+      title: "Source Credits",
       url: "https://github.com/vinitshahdeo/portfolio",
       icon: "mdi:github",
       external: true,
     },
   ],
+  sourceLinks,
 };
 
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Vinit Shahdeo | Senior Software Engineer & GitHub Star",
+    title: "About | Victor Lai | Senior Software Engineer & GitHub Star",
     description:
-      "Discover Vinit Shahdeo, a Senior Software Engineer at Novo, formerly Software Engineer II at Postman. GitHub Star from India, specializing in Node.js, Go, Microservices, Kafka, GraphQL, REST, and AWS.",
+      "Discover Victor Lai, a Senior Software Engineer at Novo, formerly Software Engineer II at Postman. GitHub Star from India, specializing in Node.js, Go, Microservices, Kafka, GraphQL, REST, and AWS.",
     image: openGraphImage,
     domain: "vinitshahdeo.com",
     url: "https://vinitshahdeo.com/about",
@@ -96,11 +86,11 @@ export const aboutPageContent: AboutPageContent = {
     `,
     image_l: {
       url: "/img/vinit_shahdeo.jpg",
-      alt: "Vinit Shahdeo",
+      alt: "Victor Lai",
     },
     image_r: {
       url: "/img/vinit-shahdeo-square-1.jpg",
-      alt: "Vinit Shahdeo",
+      alt: "Victor Lai",
     },
   },
   work: {
@@ -144,9 +134,9 @@ export const aboutPageContent: AboutPageContent = {
 // Featured (/featured)
 export const featuredPageContent: FeaturedPageContent = {
   seo: {
-    title: "Featured Articles, Stories & Interviews | Vinit Shahdeo",
+    title: "Featured Articles, Stories & Interviews | Victor Lai",
     description:
-      "Explore a curated collection of articles, insightful stories, and exclusive interviews with Vinit Shahdeo, a Software Engineer and a GitHub Star from Bengaluru, India.",
+      "Explore a curated collection of articles, insightful stories, and exclusive interviews with Victor Lai, a Software Engineer and a GitHub Star from Bengaluru, India.",
     image: openGraphImage,
     domain: "vinitshahdeo.com",
     url: "https://vinitshahdeo.com/featured",
@@ -157,15 +147,15 @@ export const featuredPageContent: FeaturedPageContent = {
 // Now (/now)
 export const nowPageContent: NowPageContent = {
   seo: {
-    title: "What I'm doing now | Vinit Shahdeo",
+    title: "What I'm doing now | Victor Lai",
     description:
       "A updated log of what I'm building, learning, reading or exploring at different points of time.",
     image: openGraphImage,
     domain: "vinitshahdeo.com",
     url: "https://vinitshahdeo.com/now",
   },
-  title: "Now (Recently)",
-  subtitle: "Where I’m at, what I’m focused on, and what I’m not.",
+  title: "Now",
+  subtitle: "What I'm focusing on.",
   sourceLinks,
 };
 

@@ -1,2 +1,2 @@
-export const gitHubUserId = "20594326";
-export const gitHubUserName = "vinitshahdeo";
+export const gitHubUserId = "75977350";
+export const gitHubUserName = "victorlaiyeeteng";
