@@ -155,7 +155,7 @@ export const nowPageContent: NowPageContent = {
     url: "https://vinitshahdeo.com/now",
   },
   title: "Now",
-  subtitle: "What I'm focusing on.",
+  subtitle: "What I'm working on.",
   sourceLinks,
 };
 

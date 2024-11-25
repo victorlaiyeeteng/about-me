@@ -10,6 +10,47 @@ import { Icon } from "astro-icon/components";
 <Layout seo={aboutPageContent.seo}>
   <section class="mt-10 max-w-2xl mx-auto px-6">
     <h1 class="text-3xl mb-1">Education</h1>
+    <div class="space-y-10">
+      <div class="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6 mt-8">
+        <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/" target="_blank" rel="noopener noreferrer">
+          <img src="/img/NUS_coat_of_arms.svg.png" class="w-10 h-10 mt-2 object-contain rounded-lg" />
+        </a>
+        <div>
+          <h2 class="text-l font-semibold">National University of Singapore</h2>
+          <p class="opacity-80">Bachelor of Computing (Honours) in Computer Science</p>
+          <p class="opacity-80">GPA: 4.63/5.0</p>
+          <p class="opacity-80">Focus Areas:</p>
+          <ul class="list-disc pl-5 opacity-80">
+            <li class="opacity-60">Algorithms & Theory (in progress)</li>
+            <li>Database Systems</li>
+            <li class="opacity-60">Parallel Computing (in progress)</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-t border-gray-200 opacity-20 w-85 mx-auto" />
+      <div class="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6 mt-8">
+        <a href="https://cs.unc.edu/" target="_blank" rel="noopener noreferrer">
+          <img src="/img/unc_logo.png" class="w-10 h-10 object-contain rounded-lg" />
+        </a>
+        <div>
+          <h2 class="text-l font-semibold">University of North Carolina at Chapel Hill</h2>
+          <p class="opacity-80">Student Exchange Programme</p>
+        </div>
+      </div>
+      <hr class="border-t border-gray-200 opacity-20 w-85 mx-auto" />
+      <div class="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6 mt-8">
+        <a href="https://www.eunoiajc.moe.edu.sg/" target="_blank">
+          <img src="/img/EJC LOGO.jpg" class="w-10 h-10 object-contain rounded-lg"/>
+        </a>
+        <div>
+          <h2 class="text-l font-semibold">Eunoia Junior College</h2>
+          <p class="opacity-80">Singapore-Cambridge GCE A-Level</p>
+          <p class="opacity-70">Grade: AAA/AA</p>
+          <p class="opacity-60">Subjects: Physics, Chemistry, Math, Economics</p>
+          <p class="opacity-60">Leadership: Basketball Captain</p>
+        </div>
+      </div>
+    </div>
     <!-- <p class="opacity-60 mb-10 subtitle">{aboutPageContent.subtitle}</p> -->
     <!-- <div class="mb-14">
       <p class="mb-5 sm:text-left">
@@ -282,15 +323,15 @@ import { Icon } from "astro-icon/components";
     </script> -->
   </section>
 
-  <section class="my-20 mt-32 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
+  <!-- <section class="my-20 mt-32 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
     <div>
-      <!-- <div class="mb-6">
+      <-- <div class="mb-6">
         My tech toolbox includes <strong>Node.js</strong>, <strong>Go</strong>, <strong
           >Kafka</strong
         >, <strong>GraphQL</strong>, <strong>REST</strong>, <strong>AWS</strong
         >, and much more – but my true love? APIs, of course!
       </div> -->
-      <div class="grid grid-cols-1 gap-1 group">
+      <!-- <div class="grid grid-cols-1 gap-1 group">
         {
           aboutPageContent.connect.links.map((item) => (
             <SocialLinkBox {...item} />
@@ -330,8 +371,8 @@ import { Icon } from "astro-icon/components";
           ))
         }
       </div>
-    </div>
-  </section>
+    </div> -->
+  <!-- </section> -->
 </Layout>
 
 <!--
