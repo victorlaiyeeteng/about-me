@@ -14,6 +14,7 @@ export const identity: Identity = {
   name: "Victor Lai",
   logo: "/img/avatar.png",
   email: "vlai69863@gmail.com",
+  headerLogo: "/img/avatar-laptop.png",
 };
 
 export const openGraphImage: string = "/img/vinitshahdeo-og.jpg";

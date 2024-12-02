@@ -22,6 +22,7 @@ export type Identity = {
   name: string;
   logo: string;
   email: string;
+  headerLogo: string;
 };
 
 export type SEOInfo = {
