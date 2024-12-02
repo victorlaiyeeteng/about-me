@@ -25,10 +25,6 @@ export const navBarLinks: NavBarLink[] = [
   //   url: "/",
   // },
   {
-    title: "edu",
-    url: "/about",
-  },
-  {
     title: "now",
     url: "/now",
   },
@@ -41,7 +37,7 @@ export const navBarLinks: NavBarLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Victor Lai | Portfolio",
+    title: "Victor Lai",
     description:
       "Explore the portfolio of Victor Lai, a Computer Science student specializing in building database systems and parallel computing.",
     image: openGraphImage,
@@ -73,7 +69,7 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Victor Lai | Senior Software Engineer & GitHub Star",
+    title: "About",
     description:
       "Discover Victor Lai, a Senior Software Engineer at Novo, formerly Software Engineer II at Postman. GitHub Star from India, specializing in Node.js, Go, Microservices, Kafka, GraphQL, REST, and AWS.",
     image: openGraphImage,

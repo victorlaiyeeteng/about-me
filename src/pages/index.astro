@@ -3,9 +3,6 @@ import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import { homePageContent, identity } from "../config";
 import SocialLink from "../components/SocialLink.astro";
-import SoourceLinkBox from "../components/SocialLinkBox.astro";
-import Link from "../components/Link.astro";
-import { Icon } from "astro-icon/components";
 ---
 
 <Layout seo={homePageContent.seo}>
@@ -44,11 +41,11 @@ import { Icon } from "astro-icon/components";
       <ul class="list-disc pl-6 mb-3">
         <li>Technology Summer Analyst at <a href="https://www.morganstanley.com/" target="_blank" class="gradient-link">Morgan Stanley</a></li>
         <li>Software Engineer Intern at <a href="https://www.switcheo.com/" target="_blank" class="gradient-link">Switcheo Labs</a></li>
-        <li>Software Developer Intern at a cybersec startup</li>
-        <li>Naval Diver at <a href="https://www.mindef.gov.sg/" target="_blank" class="gradient-link">SAF</a></li>
+        <li>Software Developer Intern at <a href="https://www.linkedin.com/company/cyberlitmus/" target="_blank" class="gradient-link">Cyberlitmus</a></li>
+        <li>Naval Diver at <a href="https://www.mindef.gov.sg/" target="_blank" class="gradient-link">SAF</a> (National Service)</li>
       </ul>
       <p>What I'm studying: </p>
-      <p>Computer Science at National University of Singapore</p>
+      <p>Computer Science at <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/" target="_blank" class="gradient-link">NUS</a></p>
       <p class="mb-3">Database Systems, Parallel Computing</p>
       <p>What I'm learning:</p>
       <ul class="list-disc pl-6">
@@ -58,17 +55,5 @@ import { Icon } from "astro-icon/components";
         <li><a href="https://www.instagram.com/lai.dumpies/" target="_blank" class="opacity-100 hover:!opacity-80 transition-opacity underline underline-gray-800 hover:decoration-gray-500">Photography</a></li>
       </ul>
     </p>
-    <!-- <div class="flex items-center gap-4 group w-fit">
-      {
-        homePageContent.links.map((link) => (
-          <Link
-            text={link.title}
-            href={link.url}
-            external={link.external}
-            icon={link.icon}
-          />
-        ))
-      }
-    </div> -->
   </section>
 </Layout>
