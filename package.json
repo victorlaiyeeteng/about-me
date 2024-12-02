@@ -2,15 +2,15 @@
   "name": "stellar-astro-dev-portfolio",
   "type": "module",
   "author": {
-    "name": "Vinit Shahdeo",
-    "email": "vinitshahdeo@gmail.com",
-    "url": "https://github.com/vinitshahdeo"
+    "name": "Victor Lai",
+    "email": "vlai69863@gmail.com",
+    "url": "https://github.com/victorlaiyeeteng"
   },
   "license": "MIT",
-  "description": "Minimal Portfolio for Software Engineer using Astro and Tailwind CSS | Made with ❤️ by Vinit Shahdeo",
+  "description": "Victor Lai Portfolio (built with Astro)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vinitshahdeo/portfolio.git"
+    "url": "https://github.com/victorlaiyeeteng/about-me.git"
   },
   "version": "1.0.0",
   "scripts": {
@@ -20,8 +20,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "npx prettier . --write",
-    "author": "open https://github.com/vinitshahdeo",
-    "demo": "open https://vinitshahdeo.com"
+    "author": "open https://github.com/victorlaiyeeteng",
+    "demo": "open https://none.com"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
