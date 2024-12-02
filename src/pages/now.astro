@@ -42,7 +42,7 @@ function formatDate(dateString: string) {
   hours = hours ? hours : 12; // the hour '0' should be '12'
   const minutesStr = minutes < 10 ? "0" + minutes : minutes;
 
-  return `${dayName}, ${monthName} ${day}, ${year} ${hours}:${minutesStr} ${ampm}`;
+  return `${monthName} ${day}, ${year} ${hours}:${minutesStr} ${ampm}`;
 }
 
 const lastModified = formatDate(new Date().toISOString());
@@ -53,9 +53,9 @@ const lastModified = formatDate(new Date().toISOString());
     <h1 class="text-3xl mb-1">{nowPageContent.title}</h1>
     <p class="opacity-60 mb-5 subtitle">{nowPageContent.subtitle}</p>
     <ul class="list-disc pl-4">
-      <li>snowboarding down red/black slopes</li>
-      <li>nba winner predictor (ml)</li>
-      <li>c++</li>
+      <li>ios widgets with swift</li>
+      <li>snowboarding down black slopes</li>
+      <li>nba game winner predictor</li>
     </ul>
     <br>
     <div

@@ -28,7 +28,6 @@ export type Identity = {
 export type SEOInfo = {
   title: string;
   description: string;
-  image: string;
   domain: string;
   url: string;
 };
@@ -37,14 +36,7 @@ export type HomePageContent = {
   seo: SEOInfo;
   role: string;
   description: string;
-  socialLinks: SocialLink[];
   homeSocialLinks: SocialLink[];
-  links: {
-    title: string;
-    url: string;
-    icon: string;
-    external?: boolean;
-  }[];
   sourceLinks: SocialLink[];
 };
 

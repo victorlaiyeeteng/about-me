@@ -7,10 +7,4 @@ export const sourceLinks: SourceLink[] = [
     icon: "mdi:camera",
     external: true,
   },
-  // {
-  //   title: "Download Astro Template",
-  //   url: "https://astro.build/themes/details/stellar-astro-dev-portfolio",
-  //   icon: "mdi:code-block-tags",
-  //   external: true,
-  // },
 ];

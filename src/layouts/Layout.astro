@@ -16,7 +16,6 @@ interface Props {
 }
 
 const { seo } = Astro.props;
-const ogImageUrl = seo.image;
 ---
 
 <html lang="en">
@@ -41,14 +40,12 @@ const ogImageUrl = seo.image;
     <meta name="description" content={seo.description} />
     <meta property="og:title" content={seo.title} />
     <meta property="og:description" content={seo.description} />
-    <meta property="og:image" content={ogImageUrl} />
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content={seo.url} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={seo.title} />
     <meta property="og:description" content={seo.description} />
-    <meta property="og:image" content={ogImageUrl} />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -56,7 +53,6 @@ const ogImageUrl = seo.image;
     <meta property="twitter:url" content={seo.url} />
     <meta name="twitter:title" content={seo.title} />
     <meta name="twitter:description" content={seo.description} />
-    <meta name="twitter:image" content={ogImageUrl} />
 
     <meta name="google-site-verification" content={googleSiteVerification} />
     <!-- Google Analytics -->
