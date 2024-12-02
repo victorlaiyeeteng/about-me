@@ -1,3 +1,3 @@
-export const measurementId = "G-0NWZDRMJMF"; // @note: Please update this value with your own Measurement ID.
+export const measurementId = "G-WNZWBZ36SD";
 export const googleSiteVerification =
-  "4tDbwC4MwIRDfltBaqtepRknsSlvnvWizTPIQCoZWWg"; // @note: Please update this value with your own Google Site Verification ID.
+  "pGpbJ01qrgm5dfew4b1mBSNCPPXe7R1e2HF37In8lV0"; // @note: Please update this value with your own Google Site Verification ID.
