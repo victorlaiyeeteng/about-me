@@ -49,6 +49,46 @@ const lastModified = formatDate(new Date().toISOString());
 ---
 
 <Layout seo={nowPageContent.seo}>
+  <section class="mt-10 max-w-2xl mx-auto px-6 border-b border-gray-100 border-opacity-30">
+    <h1 class="text-2xl mb-1">hobbies</h1>
+    <p class="opacity-90 text-sm">basketball</p>
+    <p class="opacity-90 text-sm">tennis (always fun picking up new sports)</p>
+    <p class="opacity-90 text-sm">travelling (snowboarding/surfing)</p>
+    <p class="opacity-90 text-sm">photography<a href="https://www.instagram.com/lai.dumpies/" target="_blank" class="opacity-100 hover:!opacity-80 transition-opacity" style="font-size: 1.2em;">&#x2197</a></p>
+    <!-- <ul class="list-disc pl-4 opacity-80 text-sm">
+      <li>basketball</li>
+      <li>tennis (always fun picking up new sports)</li>
+      <li>travelling (snowboarding/surfing)</li>
+      <li>photography<a href="https://www.instagram.com/lai.dumpies/" target="_blank" class="opacity-100 hover:!opacity-80 transition-opacity" style="font-size: 1.2em;">&#x2197</a></li>
+    </ul> -->
+    <br>
+  </section>
+  <section class="mt-10 max-w-2xl mx-auto px-6 border-b border-gray-100 border-opacity-30">
+    <h1 class="text-2xl mb-1">working on</h1>
+    <p class="opacity-90 text-sm">live nba game winner predictor</p>
+    <p class="opacity-90 text-sm">marathon</p>
+    <p class="opacity-90 text-sm">singing in tune</p>
+    <br>
+  </section>
+  <section class="mt-10 max-w-2xl mx-auto px-6 border-b border-gray-100 border-opacity-30">
+    <h1 class="text-2xl mb-1">travelled</h1>
+    <img src="/img/MapChart_Map (1).png" alt="">
+    <br>
+  </section>
+  <section class="mt-10 max-w-2xl mx-auto px-6">
+    <h1 class="text-2xl mb-1">i follow</h1>
+    <p class="opacity-90 text-sm">lebron james</p>
+    <p class="opacity-90 text-sm">ray dalio</p>
+    <p class="opacity-90 text-sm">bill gates</p>
+    <br>
+  </section>
+
+  <section class="mt-5 max-w-2xl mx-auto px-6">
+    <p class="text-xs opacity-30 text-right">last modified: {lastModified}</p>
+  </section>  
+
+  
+<!-- 
   <section class="mt-10 max-w-2xl mx-auto px-6">
     <h1 class="text-3xl mb-1">{nowPageContent.title}</h1>
     <p class="opacity-60 mb-2 subtitle">Working on...</p>
@@ -99,5 +139,5 @@ const lastModified = formatDate(new Date().toISOString());
     <li>learn tennis</li>
   </ul>
   <br>
-</section>
+</section> -->
 </Layout>

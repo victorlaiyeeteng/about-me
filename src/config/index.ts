@@ -18,7 +18,7 @@ export const identity: Identity = {
 
 export const navBarLinks: NavBarLink[] = [
   {
-    title: "now",
+    title: "more",
     url: "/now",
   },
 ];
